@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./resources/css/home.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH_CONNECT</title>
+    <a href="contact.html"></a>
+    <style>
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+          height: 50%;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        h1{
+            text-align: center;
+            color: #4CAF50;
+        }
+        p{
+            
+            font-size: large;
+            font-style: italic;
+        }
+        
+        </style>
+</head>
+
+<body>
+        <div class="navbar">
+                <img href="home.html" src="./resources/css/log1.PNG" alt="#" width="100 px" height="100px">
+                <div class="navbar-right">
+                    <a href="home.html" class="active">Home</a>
+                    <a href="index.html">About Us</a>
+                    <a href="Team.html">Teams Project</a>
+                    <a href="contact.html">Contact</a>
+                 </div>
+            </div>
+    <div style="text-align: center; color: #4CAF50" >
+        <h1>Contact Us</h1>
+    </div>
+    <p>TECH_CONNECT is committed to exceeding your needs. questions, comments or special requests? We'd love to hear from you.</p>
+    <div class="row" style="background-image: url('./resources/css/phi3.jpg');">
+      <div class="column">
+        </div>
+         <div class="column">
+    <div class="container" style="width: 100%; height: 100%; float: right;">
+       
+        <form action="action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                    <option value="australia">Uganda</option>
+                    <option value="canada">Kenya</option>
+                    <option value="usa">Tanzania</option>
+                    <option value="usa">Rwanda</option>
+                    <option value="usa">Nigeria</option>
+                    <option value="usa">SouthAfrica</option>
+              </select>
+      
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:50%"></textarea>
+      
+              <input type="submit" value="Submit">
+      
+          </form>
+         </div>
+      </div>
+    </div>
+    </div> 
+</body>
+</html>
