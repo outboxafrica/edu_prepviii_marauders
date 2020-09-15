@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./resources/css/home.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH_CONNECT</title>
+    <style>
+       #bg {
+  background-image: url('./resources/css/ki.jpg');
+  width: 98.5%;
+  height: 80%;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  background-position: center;
+  background-size:cover;
+      font-size: 14px;
+
+  }
+  .container {
+  position: relative;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #4CAF50;
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+  transition: .5s ease;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+le>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+          height: 50%;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        h1{
+            text-align: center;
+            color: #4CAF50;
+        }
+        p{
+            text-align: center;
+            font-size: large;
+            font-style: italic;
+        }
+        .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+           
+        
+    </style>
+</head>
+<body >
+    
+    <div class="navbar">
+        <img href="home.html" src="./resources/css/log1.PNG" alt="#" width="100 px" height="100px">
+        <div class="navbar-right">
+            <a href="home.html" class="active">Home</a>
+            <div class="dropdown">
+      <button class="dropbtn">About Us
+        <i class="fa fa-caret-down"></i>
+      </button>
+        <div class="dropdown-content">
+        <a href="#">Jane</a>
+        <a href="#">Prisca</a>
+        <a href="phionah.html">Phionah</a>
+        <a href="brendah.html">Brendah</a>
+        <a href="angella.html">Angella</a>
+        <a href="#">Annah</a>
+        </div>
+         </div>
+            <a href="Team.html">Teams Project</a>
+            <a href="contact.html">Contact</a>
+         </div>
+    </div>
+
+
+    
+          
+    <div id="bg" style="color:  green;">
+      <h1>Welcome to TECH_CONNECT</h1>
+        <h2> Committed to Excellence</h2>
+        <div class="card" style="float: left;">
+                <img src="./resources/css/Capture12.PNG" alt="John" style="width:100%">
+                <h1>TECH_CONNECT</h1>
+                <p class="title">Sofware Engineering Company</p>
+                <p>Kampala, Uganda</p>
+              </div>
+        <div class="container">
+            <img src="./resources/css/Capture14.PNG" alt="Paris" class="image">
+            <div class="overlay">
+              <div class="text" style="font-size: 97%">More information about TECH_CONNECT<br> TechConnect Ventures is the Innovation Challenge & External Technology <br>Programs arm of TechConnect, specializing in strategic open innovation<br> programs, competitions, pitch events and more. Our global Innovator<br> Ecosystem ("Ecosystem") includes nearly 500,000 members from over <br>400 technical disciplines across 80 countries. We help companies discover <br>and inspire unique partnerships and smarter investments in top emerging <br>technologies from around the world. </div>
+            </div>
+          </div>
+    </div> 
+</body>
+</html>
