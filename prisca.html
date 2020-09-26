@@ -1,45 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team projects</title>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="prisca.css" />
-  </head>
-  <body class="body">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="footer, address, phone, icons" />
+    <link href="./resources/css/trail1.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/home.css" type="text/css" rel="stylesheet">
+<meta charset="utf-8">
+<title>Responsive Navigation Menu</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/prisca1.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/home.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="prisca.css">
+    <style>
+    
+    @media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+div.heading {
+  color: lightgrey;
+  padding: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  div.heading {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.heading {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 800px){
+  .welcome-container{
+    width: 800px;
+      height: 400px;
+      margin: 5px 0px ;
+  }
+  .image{
+      width: 22%;
+      height: 400px;
+    }
+  .welcome-text{
+      width: 300px;
+    }
+ .welcome-text p:nth-child(1){
+      font-size: 20px;
+    }
+    .welcome-text p:nth-child(2), 
+ .welcome-text p:nth-child(3),
+ .welcome-text p:nth-child(4)
+ .welcome-text p:nth-child(5){
+   font-size: 18px;
+ }
+
+
+}
+    </style>
+    
+</head>
+<body class="body">
     <nav>
-      <h1 class="logo">Prissy</h1>
-      <div class="nav_link">
-        <p class="nav_link_item">Home</p>
-        <p class="nav_link_item">My Work</p>
-        <p class="nav_link_item">Contact</p>
-      </div>
-    </nav>
-    <div class="header">
-      <h1 class="heading">My Portfolio</h1>
-      <p class="subheading">
-        Hello, am Bamwireku Prisca an aspiring software developer and currently
-        a student at OutboxPrep program. I enjoy doing graphics design and so it
-        takes up most of my time.
+        <div class="logo">
+  Tech_Connect</div>
+  <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+  <li><a href="trail.html">Home</a></li>
+  <li><a class="active"  href="index.html">About Us</a></li>
+  
+  <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+
+<div class="welcome-container">
+  
+  <img src="pro6.jpg" class="image" alt="Prisca Bamwireku" width="40%" height="350px">
+ <div class="welcome-text">
+    <p style="line-height:50px; ">Hello,</p>
+    <p style="line-height:35px;">Am Bamwireku Prisca a graduate from Makerere University.</p>
+    <p style="line-height:35px;">I love expolring and learning more about technology.</p>
+    <p style="line-height:35px;">Am an aspiring software developer currently pursuing a course at OutboxPrep program.</p>
+    <p style="line-height:35px;">I enjoy doing graphics design and so it takes up most of my time.</p>
+ </div>
+</div>
+
+<div class="my-projects">
+  <div class="my-project-text">
+   <p style="line-height:35px;">My Projects</p>
+   <p>Below are some of my projects ive worked on. 
+    They are not so serious since they were only trial assignments 
+    though am working to polish them up.</p>
+  </div>
+  <div class="box-container">
+    <div class="box1">
+      <span>1</span>
+      <p class="heading">Web Designer</p>
+      <p class="details">Do you like my work?? Do you want to have a website for your business,
+        below is some sample simple website.
       </p>
+      <a href=""><button>Read More</button></a>
     </div>
-    <div class="category_row">
-      <div class="category">
-        <a href="#"
-          ><img
-            src="gf.png"
-            alt="A lady on her laptop doing work"
-            class="image-category"
-        /></a>
-        <p class="category-type">one of my bunners</p>
-      </div>
+    <div class="box2">
+      <span>2</span>
+      <p class="heading">Writter</p>
+      <p class="details">Do you love reading?? I do love writing and here are some of my writings
+      </p>
+      <a href="https://medium.com/@prisca20bamwireku/my-experience-learning-online-at-outbox-dbe7e6465115"><button>Read More</button></a>
     </div>
 
-    <div class="footer">
-      <p>(c)copyright 2020 Prissy</p>
-      <p>prisca20bamwireku@gmail.com</p>
-      <a href="https://www.facebook.com/prisprisca.lubuga">Facebook</a>
+  </div>
+
+</div>
+    
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+        <img style ="size: 10%"src= "./resources/css/ka.png">
+      <h3>About<span>Tech-connect</span></h3>
+  
+      <p class="footer-links">
+        <a href="#">Home</a>
+        |
+        <a href="#">About</a>
+        |
+        <a href="#">Contact</a>
+      </p>
+  
+      <p class="footer-company-name">© 2020 Tech-connect. Ltd.</p>
     </div>
-  </body>
+  
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+          <p><span>wakiso,
+           Kampala</span>
+          Uganda</p>
+      </div>
+  
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+256756267002</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@Tech-connect.com">support@Tech-connect.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the Tech-connect</span>
+        We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+     
+    </div>
+  </footer>
+  
+      
+      
+         
+
+      
+
+</body>
 </html>
